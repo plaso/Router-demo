@@ -1,0 +1,27 @@
+.Navbar {
+  background-color: cornflowerblue;
+  color: white;
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Navbar .Navbar-logo {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.Navbar .Navbar-actions {
+  display: flex;
+  column-gap: 8px;
+}
+
+.Navbar .Navbar-actions a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.Navbar .Navbar-actions a.active {
+  font-weight: bold;
+}
